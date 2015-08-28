@@ -1,0 +1,27 @@
+<html>
+<head>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+
+    <script type="text/javascript">
+        function updateImage(){
+
+            $.get( "/image", function( data ) {
+                $( ".cameraImage" ).attr("src", data.image );
+                console.log( "Load was performed." );
+            });
+
+            setTimeout(updateImage, 1000);
+        }
+
+        $(document).ready(function(){
+            updateImage();
+        });
+
+    </script>
+</head>
+<body>
+    <h1>camera test</h1>
+    <br>
+    <img class="cameraImage" src="" />
+</body>
+<html>

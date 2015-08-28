@@ -41,6 +41,7 @@ configuring:
 you can find more information about the different function that the fswebcam program supports so you can create images with custom configurations.
 
 [for those using a RPi](https://www.raspberrypi.org/documentation/usage/webcams/)
+
 [man pages for fswebcam](http://manpages.ubuntu.com/manpages/lucid/man1/fswebcam.1.html)
 
  to change the port the server runs on, in the index.js file, change the port number on the the line that says:

@@ -57,6 +57,6 @@ you can find more information about the different function that the fswebcam pro
 future improvements:
 --------------------
 
-stream data directly from webcam without committing to local filesystem.
-when image is captured, serve data over a socket.io connection for quicker transmission.
-get a better camera that supports streaming content natively and pipe output to end-client.
+- stream data directly from webcam without committing to local filesystem.
+- when image is captured, serve data over a socket.io connection for quicker transmission.
+- get a better camera that supports streaming content natively and pipe output to end-client.
